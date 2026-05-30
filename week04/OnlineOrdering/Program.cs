@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
 
 namespace OnlineOrdering
 { }
@@ -54,7 +53,7 @@ public class Customer
         return _name;
     }
 
-    // Encapsulation: The customer asks its Address objetc to check the country
+    // Encapsulation: Customer asks its Address objetc to check the country
     public bool LiveInUSA()
     {
         return _address.IsInUSA();
@@ -155,7 +154,7 @@ public class Order
 }
 
 // =========================================================================
-// 5. PROGRAM CLASS (Automated execution)
+// 5. PROGRAM CLASS
 // =========================================================================
 class Program
 {
